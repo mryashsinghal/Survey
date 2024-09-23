@@ -47,7 +47,7 @@ This is a customer satisfaction survey kiosk application developed using the MER
 
 ## Usage
 
-Open your browser and navigate to `http://localhost:3000` to interact with the survey kiosk application.
+Open your browser and navigate to `http://localhost:5173/` to interact with the survey kiosk application.
 
 ## Technologies Used
 
