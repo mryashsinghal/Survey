@@ -1,12 +1,11 @@
 const mongoose = require('mongoose');
 
-const scheme = mongoose.Schema();
+const Schema = mongoose.Schema;
 
-let Answer = new scheme({
-    ans: {
-        type:Object,
-        require:true
-    }
-})
+const Answer = new Schema({
+    
+    data: Object
 
-module.exports = mongoose.model('ans',Answer);
+});
+
+module.exports = mongoose.model('Ans',Answer);
